@@ -1,0 +1,129 @@
+.hero-title {
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--title-blue);
+}
+
+.hero-block-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 520px) and (max-width: 768px) {
+  .hero-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .hero-title {
+    font-size: 40px;
+    line-height: 53px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-block-wrapper {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.hero-info-block {
+  padding: 32px 10px;
+}
+@media screen and (min-width: 769px) {
+  .hero-info-block {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-img-block {
+    width: 45%;
+  }
+}
+
+.hero-img-block img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-info-img {
+}
+
+.hero-title span {
+  font-weight: 900;
+}
+
+.tagline {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 53px;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1754a4;
+}
+
+.hero-link,
+.hero-link:visited {
+  width: 250px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--title-blue);
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.hero-link:hover {
+  background-color: transparent;
+  border: 1px solid #1754a4;
+  color: #1754a4;
+}
+
+.hero-link-second,
+.hero-link-second:visited {
+  width: 250px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: var(--hover);
+  border: 1px solid var(--hover);
+  margin-left: 15px;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.hero-link-second:hover {
+  background-color: var(--hover);
+  color: #ffffff;
+}
+
+.hero-links--cont {
+  display: flex;
+  justify-content: center;
+}

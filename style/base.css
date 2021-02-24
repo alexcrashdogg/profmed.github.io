@@ -1,0 +1,62 @@
+:root {
+  --light-blue: #0089b8;
+  --title-blue: #1754a4;
+  --deep-blue: #142f6a;
+  --main-color: #ffffff;
+  --hover: rgb(232, 120, 10);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px dashed red; */
+}
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 400;
+}
+
+a,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1366px;
+
+  padding: 0 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -1,0 +1,14 @@
+@import "./style/base.css";
+@import "./style/header.css";
+@import "./style/nav.css";
+@import "./style/hero.css";
+@import "./style/content.css";
+@import "./style/footer.css";
+
+@import "./style/service.css";
+
+@import "./style/contacts.css";
+
+@import "./style/shares.css";
+
+@import "./style/mobile.css";

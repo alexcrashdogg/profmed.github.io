@@ -1,0 +1,31 @@
+.nav {
+  padding: 10px 0;
+  background-color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+
+  background: rgba(127, 199, 223, 0.35);
+}
+
+.nav-link {
+  color: var(--title-blue);
+}
+
+.nav-link:visited {
+  color: var(--title-blue);
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 94px;
+}
+
+.nav-link:hover {
+  color: var(--hover);
+}
+
+.main-page {
+  font-weight: 700;
+}

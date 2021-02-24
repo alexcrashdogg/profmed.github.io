@@ -1,0 +1,96 @@
+.content {
+  background: linear-gradient(
+      145.77deg,
+      rgba(255, 255, 255, 0.73) -0.37%,
+      rgba(255, 255, 255, 0.604845) 60.24%,
+      rgba(255, 255, 255, 0.467656) 74.7%,
+      rgba(255, 255, 255, 0) 131.86%
+    ),
+    url("../assets/content-uncompressed.png");
+  background-position: center;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+
+  padding-top: 100px;
+}
+
+.content-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 60px 0;
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1754a4;
+
+  color: var(--title-blue);
+}
+
+.content-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 90px;
+  padding-bottom: 160px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-card {
+  width: calc(33% - 120px);
+  min-width: 270px;
+  min-height: 480px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 40px 20px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px 0px, rgb(0 0 0 / 14%) 0px 1px 1px 0px,
+    rgb(0 0 0 / 12%) 0px 2px 1px -1px;
+  background-color: rgb(246 252 255);
+  transition: box-shadow 300ms ease, background-color 300ms ease;
+}
+
+.content-card:hover {
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 8px 0px, rgb(0 0 0 / 14%) 0px 3px 4px 0px,
+    rgb(0 0 0 / 12%) 0px 3px 3px -2px;
+}
+
+.card-text {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--deep-blue);
+}
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+  color: var(--deep-blue);
+  padding-top: 20px;
+  /* border-top: 1px solid rgb(194, 194, 194); */
+}
+
+.card-image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image.docs {
+  padding-left: 20px;
+}
